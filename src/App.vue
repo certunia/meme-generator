@@ -7,6 +7,8 @@ const step = ref(1);
 const log = (e) => {
   console.log('e');
   console.log(e);
+
+  step.value = 2;
 }
 </script>
 
@@ -23,7 +25,6 @@ const log = (e) => {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  max-width: 80%;
-  margin: 0 auto;
+  padding: 40px;
 }
 </style>

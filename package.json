@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.3.11",
-    "vue3-carousel": "^0.3.1",
+    "vue-drawing-canvas": "^1.0.14",
     "vuetify": "^3.4.7"
   },
   "devDependencies": {
