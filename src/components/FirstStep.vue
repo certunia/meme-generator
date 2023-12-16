@@ -36,3 +36,4 @@ const chooseImg = (e) => {
   width: 100%;
 }
 </style>
+// khm
