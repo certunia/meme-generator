@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import FirstStep from './components/FirstStep.vue'
+import Canvas from './components/Canvas.vue'
 import {ref} from "vue";
 
 const step = ref(1);
@@ -15,6 +16,7 @@ const log = (e) => {
 <template>
   <div class="content">
     <FirstStep v-if="step === 1" class="full" @chooseImg="log"/>
+    <Canvas v-if="step === 2" class="full"/>
   </div>
 </template>
 
